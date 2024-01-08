@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *{
     margin: 0;
     padding: 0;
@@ -16,67 +19,31 @@ font-family: 'Wallpoet', sans-serif; */
     background-size:cover;
     padding: 0 8%;
 }
-.content{
-    padding: 20px 20px;
-    border-radius: 10px;
-    width: 70%;
-    background-color: whitesmoke;
-    position: absolute;
-    top: 30%;
-    filter: opacity(70%);
-}
 .logo{
-    text-decoration: none;
-    color: white;
-    margin-top: 10px;
-    font-size: 30px;
-    font-weight: 800;
-    letter-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo span{
+    font-family: 'Condiment', cursive;
+}
+.golu_menu a{
+    font-family: 'Wallpoet', sans-serif;
+}
+.Hero_ h1{
+    font-family: 'Roboto', sans-serif;
+}
+.motivation{
     font-family: 'Aguafina Script', cursive;
 }
-.logo p{
-    display: inline-block;
-    font-family: 'Condiment', cursive;
-    letter-spacing: 1.2px;
-    color: rgb(241, 11, 11);
-}
-.about{
-    font-size: 16px;
-    margin-left: 18px;
-    color: #4e9672;
-    font-family: 'Nosifer', sans-serif;
-}
-.launch_time{
-    display: flex;
+.zoo h1{
+font-family: 'Nosifer', sans-serif;
 }
 .launch_time div{
     flex-basis: 100px;
     margin-left: 13px;
 }
 .launch_time div p{
-    font-size:3rem;
-    font-weight: bolder;
-    font-family: 'Wallpoet', sans-serif; 
-    margin-bottom: 1px;
-}
-.launch_time div span{
-    font-weight: bolder;
-    margin-left: 10px;
-}
-.about_you{
-    width: 100%;
-    font-size: 30px;
-    color: rgb(241, 11, 11);
-    margin-left: 14px;
-    font-family: 'Condiment', cursive;
+font-family: 'Wallpoet', sans-serif;     
 }
 .about_you span{
-    font-weight: bolder;
-    letter-spacing: 4px;
-    font-family: 'Aguafina Script', cursive;   
+   font-family: 'Aguafina Script', cursive;   
 }
-@media screen and (min-width:768px) {
-    .container{
-        background-image: url(./img/Snapchat-1257586951.jpg);
-    }
-  }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,32 +13,58 @@
 
 </head>
 <body>
-    <div class="container">
-  <a href="#" class="logo">Dear komal <p>(Our Golu 🐾💕)</p> </a>
-  <div class="content">
-      <span class="about">Its time to celebrate your Birthday in ,</span>
-  <div class="launch_time">   
-        <div>
-            <p  id="days">00</p>
-            <span>Days</span>
+    <div class="Home bg-[url('./img/IMG-20231101-WA0035.jpg')] bg-cover bg-no-repeat h-[100vh] w-[100vw]">
+      <!-- nav -->
+      <nav class="navbar flex justify-around">
+        <!-- logo -->
+        <div class="logo">
+            <s class="txt_1 text-white font-bold">Dear komal </s> <span class="text-[#f10b0b] font-extrabold">(Our Golu)</span>
         </div>
-        <div>
-            <p id="hours">00</p>
-            <span>Hours</span>
+        <!-- /logo -->
+
+        <!-- things for golu -->
+        <div class="golu_menu flex flex-wrap">
+            <a class="mr-4 animate-pulse text-white font-semibold" href="#">About Golu </a>
+            <a class="mr-4 animate-pulse text-white font-semibold" href="#">For Golu </a>
         </div>
-        <div>
-            <p id="minutes">00</p>
-            <span>Minutes</span>
+        <!-- /things for golu -->
+        <!-- right side -->
+        <div class="circle">
+        <img class="mt-1 animate-spin " src="./img/right.svg" alt="">
         </div>
-        <div>
-            <p id="seconds">00</p>
-            <span>Seconds</span>
-        </div>
+        <!-- /right side -->
+      </nav>
+      <!--/ nav -->
+      <!-- timeer -->
+<div class="Hero_ w-[65%] absolute top-[22%] left-[10%] rounded-md text-center backdrop-blur-sm bg-white/30 p-4 ">
+    <h1 class="font-extrabold text-xl text-[#f10b0b] top-0 ">Time until Wednesday , 10 April  </h1>
+    
+<div class="launch_time text-center  flex flex-wrap justify-center">   
+    <div>
+        <p class="text-5xl text-[  ] font-extrabold"  id="days">00</p>
+        <span class="font-bold">Days</span>
     </div>
-    <p class="about_you">`` There is nothing better than <span> a friend </span>unless it is a <span> friend with chocolate </span>,,</p>
-  </div>
+    <div>
+        <p class="text-5xl text-[  ] font-extrabold" id="hours">00</p>
+        <span class="font-bold">Hours</span>
+    </div>
+    <div>
+        <p class="text-5xl text-[  ] font-extrabold" id="minutes">00</p>
+        <span class="font-bold">Minutes</span>
+    </div>
+    <div>
+        <p class="text-5xl text-[  ] font-extrabold" id="seconds">00</p>
+        <span class="font-bold">Seconds</span>
+    </div>
+</div>
+<p class="motivation text-white font-medium underline tracking-[4px]"> Dear golu we Belives in you and your dream so never doubtd you'll make them come true </p>
+</div>
+      <!-- /timeer -->
+<div class="zoo">
+    <h1 class="absolute rounded-md  backdrop-blur-sm bg-black/30 p-1 top-[83%] left-4 text-xs">Hamari drama queen golu the Panda (Bhalu) </h1>
+<img class="animate-bounce absolute top-[80%] right-4" src="./img/bear_angry.svg" alt="">
+</div>
 </div>
 <script src="./index.js"></script>
-   
 </body>
 </html>
